@@ -14,7 +14,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git", from: "13.0.0"),
-        .package(url: "https://github.com/InMobi/InMobiSDK-Swift-Package.git", exact: "11.4.0")
+        .package(url: "https://github.com/InMobi/InMobiSDK-Swift-Package.git", exact: "11.4.1")
     ],
     targets: [
         .target(
@@ -28,8 +28,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AppLovinMediationInMobiAdapter",
-            url: "https://artifacts.applovin.com/ios/com/applovin/mediation/inmobi-adapter/AppLovinMediationInMobiAdapter-11.4.0.0.zip",
-            checksum: "96f63622396d6be6375426e66214ccfc1d313b937b81b353d7e73ce6db55b823"
+            url: "https://artifacts.applovin.com/ios/com/applovin/mediation/inmobi-adapter/AppLovinMediationInMobiAdapter-11.4.1.0.zip",
+            checksum: "163ca4e398626e34d02ea4cc7337c3b8db41be10ed0d4f0597e9d0b901bbc474"
         )
     ]
 )
