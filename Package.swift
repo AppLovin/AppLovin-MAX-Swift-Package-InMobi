@@ -28,8 +28,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AppLovinMediationInMobiAdapter",
-            url: "https://artifacts.applovin.com/ios/com/applovin/mediation/inmobi-adapter/AppLovinMediationInMobiAdapter-11.4.1.0.zip",
-            checksum: "163ca4e398626e34d02ea4cc7337c3b8db41be10ed0d4f0597e9d0b901bbc474"
+            url: "https://artifacts.applovin.com/ios/com/applovin/mediation/inmobi-adapter/AppLovinMediationInMobiAdapter-11.4.1.1.zip",
+            checksum: "39fe1649c26dcb20c542cf51fdc58df080ca50de0634c1d42cef8bd16d52f25a"
         )
     ]
 )
